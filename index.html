@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <meta name="description" content="Apple Developer Academy Indonesia portfolio submission" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav id="nav-dots" class="nav-dots" aria-label="Project navigation"></nav>
+
+  <main id="slides" class="slides"></main>
+  <template id="slide-template">
+    <section class="slide">
+
+      <span class="slide__counter" data-field="counter"></span>
+
+      <div class="slide__body">
+
+        <aside class="slide__sidebar">
+          <div class="field">
+            <h3 class="field__label">Artwork/Project Title</h3>
+            <p class="field__value" data-field="title"></p>
+          </div>
+          <div class="field">
+            <h3 class="field__label">Year Accomplished</h3>
+            <p class="field__value" data-field="year"></p>
+          </div>
+          <div class="field">
+            <h3 class="field__label">Role/Position</h3>
+            <p class="field__value" data-field="role"></p>
+          </div>
+          <div class="field">
+            <h3 class="field__label">Publication Link</h3>
+            <a class="field__value field__value--link" data-field="publicationLink" target="_blank" rel="noopener"></a>
+          </div>
+        </aside>
+
+        <div class="slide__main">
+          <div class="field field--description">
+            <h3 class="field__label">Artwork/Project Description</h3>
+            <p class="field__value" data-field="description"></p>
+          </div>
+
+          <div class="media-box media-box--empty" data-field="mediaBox">
+            <div class="media-box__inner">
+              <h4 class="media-box__title">Artwork/project photo/picture</h4>
+              <p class="media-box__text">
+                Photo or picture that shows craftsmanship and command of techniques, whether
+                digital or handmade, with careful attention to detail while understanding
+                materials and/or media to enhance the design concept.
+              </p>
+              <p class="media-box__caption" data-field="imageCaption"></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <footer class="slide__footer">
+        <div class="footer__col">
+          <h3 class="field__label">Your name</h3>
+          <p class="field__value" data-field="name"></p>
+        </div>
+        <div class="footer__col">
+          <h3 class="field__label" data-field="school"></h3>
+          <p class="field__value" data-field="schoolStatus"></p>
+        </div>
+        <div class="footer__col">
+          <h3 class="field__label">Your contact information</h3>
+          <p class="field__value" data-field="contact"></p>
+        </div>
+        <div class="footer__col footer__col--brand">
+          <p class="brand__eyebrow">Portfolio Submission for</p>
+          <p class="brand__name" data-field="submissionFor"></p>
+        </div>
+      </footer>
+
+    </section>
+  </template>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
