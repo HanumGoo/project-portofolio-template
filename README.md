@@ -11,7 +11,7 @@ This template have a config.js that's implement "no-repeat".
 so if you want to change anything on your project, just go to config.js.
 
 # config.js
-this config.js is have 2 arrays (Profile & Project) that's implement "no-repeat"
+this config.js is have 2 fields (Profile & Project) that's implement "no-repeat"
 
 ## Profile
 Add your Credentials here, I think the object key itself has already describe their functionality.
