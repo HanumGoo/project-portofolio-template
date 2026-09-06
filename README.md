@@ -14,7 +14,7 @@ so if you want to change anything on your project, just go to config.js.
 this config.js is have 2 arrays (Profile & Project) that's implement "no-repeat"
 
 ## Profile
-Add your credentials here, I think the objects key itself has already describe their functionality.
+Add your Credentials here, I think the object key itself has already describe their functionality.
 ![image](https://github.com/HanumGoo/project-portofolio-template/blob/main/readme-img/data%20profile.png?raw=true)
 
 ## Project

@@ -65,7 +65,6 @@ function renderPortfolio() {
     });
     navContainer.appendChild(dot);
   });
-
   const slideEls = Array.from(document.querySelectorAll(".slide"));
   slideEls.forEach((el, i) => (el.id = `slide-${i}`));
 
