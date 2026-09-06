@@ -10,4 +10,6 @@ This template have a config.js that's implement "no-repeat".
 
 so if you want to change anything on your project, just go to config.js.
 
+![image](https://github.com/HanumGoo/project-portofolio-template/blob/main/readme-img/data%20profile.png?raw=true)
+
 
